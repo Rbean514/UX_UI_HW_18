@@ -67,6 +67,15 @@
 </head>
 <body>
 
+    #mySkills { 
+       text-align: center; 
+       padding: 50px 0; 
+    }
+
+    #mySkills h1 {
+        color: #052DOF; 
+    }
+    
    
     <header class="navigation">
         <div class="inline-block logo">
@@ -104,6 +113,93 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homepage</title>
+    <style>
+        #mySkills {
+            text-align: center;
+            padding: 50px 0;
+            background-color: ivory; 
+        }
 
+        #mySkills h1 {
+            color: #052D0F;
+        }
+
+        .flexContainer {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .skillCard {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #052D0F;
+            border-radius: 10px;
+            width: 30%;
+        }
+
+  
+        #mySkills,
+        #mySkills h1,
+        .flexContainer,
+        .skillCard {
+            background-color: ivory; 
+        }
+    </style>
+</head>
+<body>
+
+   
+
+    <!--skills section -->
+    <section id="mySkills" style="background-color: ivory;"> 
+        <div class="flexContainer">
+            <div class="skillCard">
+                <img src=".../" alt="">
+                <h3>User Research</h3>
+                <p>Like having a chat with your audience to figure out what they love, hate, and wish for in your app or website </p>
+            </div>
+            <div class="skillCard">
+                <img src="path-to-your-icon2.png" alt="">
+                <h3>Information Architecture</h3>
+                <p>Like being the tour guide of a website, helping folks find what they need by organizing things in a way that makes sense.</p>
+            </div>
+            <div class="skillCard">
+                <img src="" alt="">
+                <h3>prototyping</h3>
+                <p>I create a digital sneak peek of your app or website to see how it feels before going all-in.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="myWork-Grid">
+        <h1>My Work</h1>
+        <div class="project-card">
+            <div class="project--details">
+                <h2>Project 1</h2>
+                <p>Description of Project 1.</p>
+                <button>View Case Study</button>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project--details">
+                <h2>Project 2</h2>
+                <p>Description of Project 2.</p>
+                <button>View Case Study</button>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project--details">
+                <h2>Project 3</h2>
+                <p>Description of Project 3.</p>
+                <button>View Case Study</button>
+            </div>
+        </div>
+        <h4>View All Projects</h4>
+    </section>
 
 
